@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Animated Clock - Canvas API</title>
+		<script src="script.js" defer></script>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="shortcut icon" href="favicon.svg" type="image/x-icon" />
+	</head>
+	<body>
+		<canvas id="canvas" width="500" height="500"></canvas>
+		<div class="card">
+			<h3>Clock Style</h3>
+			<form id="color-form">
+				<div class="form-input">
+					<label for="clock-face">Face Color</label>
+					<input
+						type="color"
+						name="clock-face"
+						id="input-color-clock-face"
+						value="#656085"
+					/>
+				</div>
+				<div class="form-input">
+					<label for="clock-hands">Hands Color</label>
+					<input
+						type="color"
+						name="clock-hands"
+						id="input-color-clock-hands"
+						value="#DFAC53"
+					/>
+				</div>
+				<div class="form-input">
+					<label for="clock-border">Border Color</label>
+					<input
+						type="color"
+						name="clock-border"
+						id="input-color-clock-border"
+						value="#D7285C"
+					/>
+				</div>
+				<div class="form-input">
+					<button id="save-image-btn">save image</button>
+				</div>
+			</form>
+		</div>
+	</body>
+</html>
